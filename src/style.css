@@ -1,0 +1,93 @@
+
+  /* .xx señala una clase */
+ /* #xx señala una ID */
+html{
+    background: aliceblue;
+}
+body{                                      /* */
+    color: #000; /*todo el texto que esta en el body queda en negro */
+}
+#footer {
+    width: 100%;
+    height: 205px;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    bottom: auto;
+}
+
+
+/*div nombre apellido */
+#datosPersonales{
+    padding: 1em ;
+    /* border: 1px solid chocolate; */
+    /*border-top: 10px solid red;*/ /*arriba*/
+    /*border-bottom: 4px solid violet;*/ /*abajo*/
+    /* border-left: 6px solid violet; */
+    width: 500px;  /* Ancho */
+    height: 80px;
+}
+
+/*div nombre apellido */
+#direcciones{
+    padding: 1em ;
+    /* border: 1px solid chocolate;
+    border-top: 10px solid red; arriba */
+    /* border-bottom: 4px solid violet; /*abajo*/
+    /* border-left: 6px solid violet; */
+    width: 500px;  /* Ancho */
+    height: 80px;  
+}
+
+/*div tarjeta */
+#formaPago{
+    padding: 1em ;
+    /* border: 1px solid chocolate;
+    border-top: 10px solid red; arriba */
+    /* border-bottom: 4px solid violet; /*abajo*/
+    /* border-left: 6px solid violet; */
+    width: 500px;  /* Ancho */
+    height: 80px;  
+}
+label{
+    display: inline-block;
+    width: 130px;
+}
+
+/* header{
+    flex-direction: 2;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1910px; /*1910 es el ancho de la pantalla*/
+    height: 150px;  /*150px*/
+    /* outline: 2px solid red; */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cabecera{
+    width: 150px;
+    height: 150px;
+    /* background: green; */
+   
+    text-align:center ;
+    font-family: sans-serif;
+    line-height: 150px;/*centrar verticalmente los datos */
+    flex-grow: 0;
+ }
+ .dos{
+    /* background: blueviolet; */
+    color:#C70039;
+    font-family: sans-serif ;
+    flex-grow: 3;
+    vertical-align: middle;
+    /* text-align:center ; */
+ }
