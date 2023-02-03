@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Registro usuario</title>
+  <!-- <title>Tarjeta de crédito válida</title> -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="container"> 
+    <!-- aqui solo coloco logotipo/slogan/nav(enlace de navegacion a paginas) -->
+   
+      <img id="logo"   class="cabecera uno" src="/imagenes/logo_taza_de_cafe.jpg" width="150px" height="150px" alt="" />
+      <h1  id="titulo" class="cabecera dos" >Olor a Café...</h1>      
+    
+   
+  </header>
+  <br>
+  <main>
+    <section>
+     
+        <div id="datosPersonales">
+          <label for="name">Nombre completo. </label>
+          <input id="name" type="text" maxlength="50"><br><br>
+          <div>
+            <label for="phone">Celular. </label>
+            <input id="phone" type="text" name="" max="9">
+          </div>
+            <!-- <hr /> -->   <!--hr coloca una linea divisoria en la web -->
+        </div>
+  
+        <div id="direcciones">
+          <label for="direccion">Direccion. </label>
+          <input id="direccion" type="text" maxlength="50"><br><br>
+          <label for="comuna">Comuna. </label>
+          <input id="comuna" type="text" maxlength="20">
+        </div>
+  
+        <div id="formaPago">
+          <label for="cardNumber">Tarjeta. </label>
+          <input id="cardNumber" type="text" maxlength="16">
+          <button id="btn">Validar 2</button><br><br>
+          <div id="result"></div>
+  
+          <!-- <label for="formaPago__comuna">Comuna. </label>
+      <input id= "formaPago__comuna" type="text"> -->
+        </div>
+      
+      
+
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>Derechos Reservados.</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
